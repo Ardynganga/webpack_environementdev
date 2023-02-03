@@ -1,0 +1,29 @@
+h3{
+    color: blue;
+}
+.form_user{
+    border: 1px solid silver;
+    border-radius: 5px;
+    width: 50%;
+    padding: 2px;
+
+}
+.form_user input{
+    padding: 10px;
+    border: 1px solid silver;
+    border-radius: 5px;
+   
+}
+.form_user select{
+    padding: 10px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    width: 50%;
+    height: 40%;
+}
+.form_user input:hover{
+    border: 1px solid rgb(68, 106, 228);   
+}
+.form_user select:hover{
+    border: 1px solid rgb(68, 106, 228);   
+}

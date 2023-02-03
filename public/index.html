@@ -6,7 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>template personaliser</title>
 </head>
-<body>
-    <h3>salut ardy nganga</h3>
+<body class="container "><br>
+    <div class="fixed-top p-3 bg-light">
+        <button class="btn btn-success text-light">web</button><span class=""><b>secur</b> </span>
+    </div><br><br><br><br>
+    
+    <h4>contronle de formulaire de maniere automatique pour prevenure les utilisateur en temp reel</h4>
+    
+    <!--|-->
+    
+        <div class="container row">
+            <div id="user_contact" class="form_user">
+                <form action="#" method="post">
+                
+                <div class="col">  
+                    <label for="nom">nom d'utilisateur</label>
+                    <input type="text" name="nom" id="nom" class="form-control">
+                        <p class="form_err form_valide" id="user_nom_err"></p>
+                </div>
+
+                <div class="col">
+                    <p>genre</p>
+                    <label for="sexe">homme</label>
+                    <input type="radio" name="user_sex" id="" value="homme" >
+                </div>
+
+                <div class="col">
+                    <label for="sexe">femme</label>
+                    <input type="radio" name="user_sex" id="" value="femme" ><br>
+                        <p class="form_err form_valide" id="user_genre_err"></p>
+                </div>
+                
+                <div class="col">
+                    <label for="pays" >pays</label>
+                    <select name="user_pays" id="user_pays" class="form-control">
+                        <option value="none">---------------</option>
+                        <option value="rdc">congo kinshasa</option>
+                        <option value="braza">congo brazaville</option>
+                    </select>
+                        <p class="form_err form_valide" id="user_pays_err"></p>
+                </div>
+
+                <div class="col">
+                    <label for="user_date">date de naissance</label>
+                    <input type="date" name="user_dateNaissance" id="user_dateNaissance" class="form-control"><br>
+                </div>
+
+                <div class="col">
+                    <label for="user_password">mot de passe</label>
+                    <input type="password" name="user_password" id="user_password" class="form-control"><br>
+                </div>
+
+                <div class="col">
+                    <label for="user_password">comfirmer le mot de passe</label>
+                    <input type="password" name="user_password" id="user_password" class="form-control"><br>
+                </div>
+
+                
+                <div class="row w-80">
+                    <button type="submit" class="btn btn-success col-5">valider</button> 
+                    <button type="reset" class="btn btn-danger col-5 offset-2">annuler</button>
+                </div>
+                </form>
+            </div>
+        </div>
 </body>
 </html>

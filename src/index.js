@@ -1,5 +1,5 @@
 import {slt} from './app'
-import './style.css'
-import Icon from './img.jpg';
+import './style/bootstrap.css'
+import './style/style.css'
+import './formulaire/form'
 
-slt();
